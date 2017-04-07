@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as ET
 
-tree = ET.parse('/home/shaswat/Desktop/Output.xml')
+tree = ET.parse('/home/vp/Desktop/Output.xml')
 root = tree.getroot()
 
 parts = root.findall('part')
